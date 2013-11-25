@@ -1,0 +1,46 @@
+Week 1 Quiz
+What is the value of a after the below code is executed?
+a = 1
+b = a
+b = 3
+a => 1
+What's the difference between an Array and a Hash?
+Array => Index and value
+Hash => key and value
+
+Every Ruby expression returns a value. Say what value is returned in the below expressions:
+
+=>[1, 2, 3, 3]
+
+[1, 2, 3, 3].uniq
+=>[1, 2, 3]
+
+[1, 2, 3, 3].uniq!
+=>[1, 2, 3]
+
+What's the difference between the map and select methods for the Array class? Give an example of when you'd use one versus the other.
+map => Invokes the given block once for each element of self. map { |item| block } → new_ary
+select => Returns a new array containing all elements of ary for which the given block returns a true value. select { |item| block } → new_ary
+
+Say you wanted to create a Hash. How would you do so if you wanted the hash keys to be String objects instead of symbols?
+hash[string] = value
+hash[:a, 10 :b, 20]
+
+What is returned?
+x = 1
+x.odd? ? "no way!" : "yes, sir!"
+=> x = 1
+
+What is x?
+x = 1
+3.times do
+  x += 1
+end
+puts x
+What is x?
+3.times do
+  x += 1
+end
+puts x
+
+x = 4
